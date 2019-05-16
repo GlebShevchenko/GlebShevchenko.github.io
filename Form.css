@@ -1,0 +1,74 @@
+.form{
+	display:flex;
+	margin:auto;
+	align-items: center;
+	justify-content:center;
+	width:500px;
+	height:500px;
+	border-radius:10px;
+	background:#FFE4C4;
+}
+body{
+	background-image: url('Fon.jpg');
+	background-repeat:repeat-y;
+	background:cover;
+	background-size:100%;
+	font-family:Arial,serif;
+	color:#381f15;
+	
+}
+.f{
+	display:block;
+	top:25px;
+	bottom:25px; 
+	font-size:14pt;
+}
+.f1{
+	border-radius:10px;
+}
+.f1:hover{
+	 background:#dcac6c;
+	  color: black;
+	  box-shadow:1px 5px 20px -5px black;
+	  cursor:pointer;
+	  transition:all 0.5s ease;
+}
+#but1{
+	float:right;
+}
+#but1:hover{
+	 background:#dcac6c;
+	  color: black;
+	  box-shadow:1px 5px 20px -5px black;
+	  cursor:pointer;
+	  transition:all 0.5s ease;
+}
+#but2:hover{
+	 background:#dcac6c;
+	  color: black;
+	  box-shadow:1px 5px 20px -5px black;
+	  cursor:pointer;
+	  transition:all 0.5s ease;
+}
+.bottom{
+		display:block;
+		padding: 3px 8px 3px 8px;
+		font-family:Arial,serif;
+		border-radius:5px;
+		text-decoration: none;
+		transition:all 0.5s ease;
+		position:fixed;
+		float:left;
+		z-index:200;
+		background:#FFE4C4;
+		color:#381f15;
+	}
+	.bottom:hover{
+	  /*background:#808080;*/
+	  background:#dcac6c;
+	  color: black;
+	  box-shadow:1px 5px 20px -5px black;
+	  cursor:pointer;
+	  transition:all 0.5s ease;
+	}
+

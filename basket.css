@@ -1,0 +1,21 @@
+.zakaz{
+	display:block;
+	width:100%;
+	margin: 20px auto;
+	font-family:Arial,serif;
+	border-radius:5px;
+	text-decoration: none;
+	max-width:960px;
+	transition:all 0.5s ease;
+	background:#FFE4C4;
+	color:#381f15;
+	height:20px;
+}
+.zakaz:hover{
+	  /*background:#808080;*/
+	  background:#dcac6c;
+	  color: black;
+	  box-shadow:1px 5px 20px -5px black;
+	  cursor:pointer;
+	  transition:all 0.5s ease;
+	}

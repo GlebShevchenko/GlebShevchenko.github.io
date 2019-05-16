@@ -1,0 +1,269 @@
+﻿
+	body{
+		background-image: url('Fon.jpg');
+		color: white;
+		background-repeat:repeat-y;
+		background-size:100%;
+		font-family:Arial,serif;
+		
+	}
+	.mar{
+		color: #FFEBCD;
+		font-family:Times New Roman,serif;
+		font-weight: bolder;
+		font-size: 30pt;
+	}
+	@media screen and (min-width:1024px)
+	{
+		nav{
+			font-size:12pt;
+		}
+		
+	}
+	@media screen and (max-width:800px)
+	{
+		nav{
+			font-size:8pt;
+		}
+		
+	}
+	@media screen and (max-width:700px)
+	{
+		nav{
+			font-size:5pt;
+		}
+	}
+	@media screen and (max-width:600px)
+	{
+		nav{
+			font-size:4pt;
+		}
+	}
+	nav{
+		width:100%;
+	}
+	.menu ul{
+	   display: -webkit-flex;
+	   display:flex;
+	   justify-content:center;
+	}
+	.menu *{
+	   padding:0;
+	}/*очищаю браузерные задачи*/
+	.menu  ul,
+	.menu  ol{
+		list-style:none;
+	}/**/
+	.menu > ul{
+	   display:flex;
+	   align-items: center;
+	   position:relative;
+	   
+	}/*задача меню горизонтальным и равнение по центру*/
+	.menu > ul li a {
+		display: block;/*блоки для меню*/
+		padding: 15px 35px 15px 35px;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-weight: bold;
+		color:white;
+		transition:all 0.5s ease;
+	}/**/
+	.menu > ul li a:hover{
+	  /*background:#808080;*/
+	  background:#dcac6c;
+	  color: black;
+	  box-shadow:1px 5px 20px -5px black;
+	  cursor:pointer;
+	  transition:all 0.5s ease;
+	}/*цвет при наведение*/
+
+	.menu > ul li{
+		position:relative;
+		text-align:center;
+		border-right: 1px solid white;
+		width: 250px;
+	}
+	/*ылетающее меню*/
+	.menu > ul li > ul li{
+	   display:flex;
+	   align-items: center;
+	   z-index:-1;
+		
+	}/*разделитель для первого уровня меню*/
+	.menu > ul li:first-child {
+		border-left: 1px solid white;
+	}
+	.art{
+		text-align:center;
+	}
+	.section1{
+		color:#381f15;
+		width:100%;
+		height:400px;
+		margin: 0 auto;
+		max-width:960px;
+	}
+	.content1{
+		width:100%;
+		height:400px;
+		margin: 0 auto;
+		max-width:960px;
+	}
+	.content{
+		background:#FFE4C4;
+		float:left;
+		width:100%;
+		height:185px;
+		font-size:14pt;
+		display: -webkit-flex;
+		display:flex;
+		align-items: center;
+	}
+	.logotip{
+		text-align:center;
+		float:right;
+		background:#FFE4C4;
+		width:25%;
+		height:400px;
+	}
+	.logotip img{
+	max-width: 220px;
+	}
+	.soder{
+		width:100%;
+		margin-top:30px;
+		height:185px;
+		float:left;
+		font-size:14pt;
+		background:#FFE4C4;
+		text-align:center;
+	}
+	.content3{
+		width:70%;
+		float:left;
+	}
+	p{
+	   padding:10px;
+	}
+	div{
+	   border-radius:10px;
+	}
+	.slider{
+		margin-top:50px;
+	    height: 400px;
+	    width: 100%;
+	    position: relative;
+	    overflow: hidden;
+	    color: #fff;
+	    text-align: center;
+	}
+	.slid{
+		padding:0;
+	}
+	.slides label{
+	  cursor:pointer;
+	  display:flex;
+	  justify-content:center;
+	  margin-top:0;
+	  padding: 10px 35px 10px 35px;
+	  text-transform: uppercase;
+	  text-decoration: none;
+	  font-weight: bold;
+	  font-size:12pt;
+	  transition:all 0.5s ease;
+	}
+	.slides label:hover{
+	  background:#dcac6c;
+	  box-shadow:1px 5px 20px -5px black;
+	  border-radius:10px;
+	  cursor:pointer;
+	  transition:all 0.5s ease;
+	}
+	input{
+	    display:none;
+	}
+	.slide{
+	      height:400px;
+		  width:100%;
+		  border-radius:10px;
+		  top:0;
+		  left:100%;
+		  position: absolute;
+		  z-index:10;
+		  transition:left 0s .75s;
+	}
+	.slide-one{
+		max-width: 960px;
+	}
+	.slide-two{
+		 max-width: 960px;
+	}
+	.slide-three{
+		  max-width: 960px;
+	}
+	#slide1:checked + .slide{
+	    left:0;
+		z-index:100;
+		transition: left 0s.65s ease-out;
+	}
+	#slide2:checked + .slide{
+	    left:0;
+		z-index:100;
+		transition: left 0s.65s ease-out;
+	}
+	#slide3:checked + .slide{
+	    left:0;
+		z-index:100;
+		transition: left 0s.65s ease-out;
+	}
+	footer{
+		margin-top:2%;
+		width:100%;
+		height:100px;
+		margin-bottom:2%;
+	}
+	.tb{
+	    width:100%;
+		height:100%;
+	}
+	.tb img{
+		width:25%;
+	}
+	.tb1{
+	    text-align:center;
+	}
+	.tb2{
+	    text-align:center;
+	}
+	.tb3{
+	    text-align:center;
+	}
+	.tb4{
+	    text-align:center;
+	}
+	.tb5{
+	    text-align:center;
+	}
+	.bottom{
+		display:block;
+		padding: 3px 8px 3px 8px;
+		font-family:Arial,serif;
+		border-radius:5px;
+		text-decoration: none;
+		transition:all 0.5s ease;
+		position:fixed;
+		float:left;
+		top:50%;
+		z-index:200;
+		background:#FFE4C4;
+		color:#381f15;
+	}
+	.bottom:hover{
+	  /*background:#808080;*/
+	  background:#dcac6c;
+	  color: black;
+	  box-shadow:1px 5px 20px -5px black;
+	  cursor:pointer;
+	  transition:all 0.5s ease;
+	}
